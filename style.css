@@ -1,0 +1,287 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: #008000;
+  /*background-color: #98db98 }*/
+  background-color: #FFFFFF}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+h2 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif, 
+        margin: 20px 0,
+        padding: 5px,
+        width: 90%,
+        margin: 0 auto,
+        float: left
+      }        
+ul.navbar li {
+  background: #FFFFFF;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid green }
+ul.navbar a {
+  text-decoration: none }
+
+.column1 {
+  padding-left: 1em;
+    float: left;
+    width: 75%;
+}
+.column2 {
+  padding-left: 1em;
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+
+  .fbutton {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    padding: 0 20px 0 73px;
+    border: none;
+    font: normal 20px/2.4 "Open Sans", Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+    text-transform: capitalize;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(100,138,214,1);
+    -webkit-box-shadow: 0 5px 0 0 rgba(88,116,173,1) ;
+    box-shadow: 0 5px 0 0 rgba(88,116,173,1) ;
+    text-shadow: 0 1px 1px rgba(87,151,180,0.36) ;
+    -webkit-transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+
+  .fbutton:hover {
+    background: rgba(91,125,193,1);
+    -webkit-box-shadow: 0 5px 0 0 rgba(80,105,155,1) ;
+    box-shadow: 0 5px 0 0 rgba(80,105,155,1) ;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .fbutton:active {
+    top: 2px;
+    -webkit-box-shadow: 0 3px 0 0 rgba(80,105,155,1) ;
+    box-shadow: 0 3px 0 0 rgba(80,105,155,1) ;
+  }
+
+  .fbutton::before {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    border: 0 solid #018dc4;
+    border-right: 1px solid rgba(255,255,255,0.2);
+    font: normal medium/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("http://enjoycss.com/bg-img/custom/21875-v2clm0.png"), rgba(0,0,0,0.05);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 30px auto;
+    background-size: 30px auto;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+
+  .tbutton {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    padding: 0 20px 0 73px;
+    border: none;
+    font: normal 20px/2.4 "Open Sans", Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+    text-transform: capitalize;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgb(105,192,223);
+    -webkit-box-shadow: 0 5px 0 0 rgb(87,151,180) ;
+    box-shadow: 0 5px 0 0 rgb(87,151,180) ;
+    text-shadow: 0 1px 1px rgba(87,151,180,0.36) ;
+    -webkit-transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: top 50ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+
+  .tbutton:hover {
+    background: rgba(78,182,216,1);
+    -webkit-box-shadow: 0 5px 0 0 rgba(78,136,160,1) ;
+    box-shadow: 0 5px 0 0 rgba(78,136,160,1) ;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .tbutton:active {
+    top: 2px;
+    background: rgb(105,192,223)	;
+    -webkit-box-shadow: 0 3px 0 0 rgba(78,136,160,1) ;
+    box-shadow: 0 3px 0 0 rgba(78,136,160,1) ;
+    -webkit-transform-origin: 50% 100% 0;
+    transform-origin: 50% 100% 0;
+  }
+
+  .tbutton::before {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    border: 0 solid #018dc4;
+    border-right: 1px solid rgba(255,255,255,0.2);
+    font: normal medium/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("http://enjoycss.com/bg-img/custom/21875-1huuuuw.png"), rgba(0,0,0,0.05);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 30px auto;
+    background-size: 30px auto;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+
+  .tag-green {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 22px;
+    position: relative;
+    content: "";
+    cursor: pointer;
+    margin: 0 13px 0 0;
+    padding: 10px 28px 10px 20px;
+    border: none;
+    -webkit-border-radius: 4px 1px 1px 4px;
+    border-radius: 4px 1px 1px 4px;
+    font: normal 20px/24px "Antic", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #1abc9c;
+    -webkit-box-shadow: 0 5px 0 0 #16a085 , 5px 5px 0 0 #16a085 ;
+    box-shadow: 0 5px 0 0 #16a085 , 5px 5px 0 0 #16a085 ;
+  }
+
+  .tag-green::before {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    content: "";
+    cursor: pointer;
+    top: 6px;
+    right: -16px;
+    border: none;
+    -webkit-border-radius: 1px 1px 4px;
+    border-radius: 1px 1px 4px;
+    font: normal medium/normal Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #1abc9c;
+    -webkit-box-shadow: 0 6px 0 0 #16a085 ;
+    box-shadow: 0 6px 0 0 #16a085 ;
+    text-shadow: none;
+    -webkit-transform: rotateY(1deg) rotateZ(-45deg)   ;
+    transform: rotateY(1deg) rotateZ(-45deg)   ;
+  }
+
+  .tag-green::after {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: 2;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    content: "";
+    cursor: pointer;
+    top: 16px;
+    right: 0;
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal medium/normal Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #fcfcfc;
+    -webkit-box-shadow: 5px 5px 0 0 #16a085 inset;
+    box-shadow: 5px 5px 0 0 #16a085 inset;
+    text-shadow: none;
+  }
